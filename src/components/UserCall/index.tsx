@@ -8,7 +8,7 @@ import styles from './styles';
 
 export default function UserCall() {
     return (
-        <View>
+        <View style={styles.container}>
             <View style={styles.myCalls}>
 
                 <View>

@@ -1,23 +1,26 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
+
+    container: {
+        margin: 10
+    },
     myCalls: {
         flexDirection: 'row',
-        padding: 10,
+        padding: 5,
     },
 
     img: {
-        width: 60,
-        height: 60,
+        width: 55,
+        height: 55,
         borderRadius: 30,
         resizeMode: 'contain',
-        borderColor: 'pink',
 
     },
 
     info: {
         padding: 10,
-        marginBottom: 15,
+        marginBottom: 10,
     },
 
 
@@ -40,14 +43,14 @@ const styles = StyleSheet.create({
 
     icons: {
         marginTop: 230,
-        marginLeft: 290,
+        marginLeft: 280,
         alignContent: 'center'
     },
 
     pencil: {
         backgroundColor: '#313B42',
-        width: 60,
-        height: 60,
+        width: 55,
+        height: 55,
         borderRadius: 30,
         textAlign: 'center',
         padding: 15,

@@ -7,20 +7,20 @@ const styles = StyleSheet.create({
     },
 
     img: {
-        width: 60,
-        height: 60,
+        width: 55,
+        height: 55,
         borderRadius: 30,
         resizeMode: 'contain',
         borderColor: 'pink',
     },
 
     info: {
-        padding: 15
+        padding: 10
     },
 
     title: {
         color: '#D4D6D8',
-        fontSize: 16,
+        fontSize: 14,
         fontWeight: 'bold'
     },
 
@@ -33,25 +33,25 @@ const styles = StyleSheet.create({
         marginTop: -20,
         marginLeft: 40,
         backgroundColor: '#0CB2A0',
-        width: 22,
-        height: 22,
+        width: 20,
+        height: 20,
         borderRadius: 20,
     },
 
     att: {
-        padding: 20
+        padding: 15
     },
 
     icons: {
-        marginTop: 100,
+        marginTop: 140,
         marginLeft: 290,
         alignContent: 'center'
     },
 
     pencil: {
         backgroundColor: '#313B42',
-        width: 60,
-        height: 60,
+        width: 55,
+        height: 55,
         borderRadius: 30,
         textAlign: 'center',
         padding: 15,

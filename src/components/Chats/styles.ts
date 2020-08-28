@@ -3,14 +3,14 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
-        padding: 10,
+        padding: 12,
         borderBottomWidth: 0.3,
         borderBottomColor: '#9fa3a7',
     },
 
     img: {
-        width: 60,
-        height: 60,
+        width: 50,
+        height: 50,
         borderRadius: 30,
         resizeMode: 'contain'
     },
@@ -34,10 +34,12 @@ const styles = StyleSheet.create({
     info: {
         alignItems: 'center',
         marginTop: 5,
+        marginLeft: 15
     },
 
     hour: {
         color: '#00AF9C',
+        fontSize: 12
     },
 
     total: {
