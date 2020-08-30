@@ -31,7 +31,6 @@ const Chats: React.FC<ChatProps> = ({ chat }) => {
                     <Text style={styles.hour}>{chat.hour}</Text>
                     <Text style={styles.total}>{chat.total}</Text>
                 </View>
-
             </TouchableOpacity>
         </View>
     );

@@ -19,7 +19,7 @@ export default function UserCall() {
                     <Text style={styles.title}>Joana</Text>
                     <Text style={styles.subTitle}>(1) ontem 20:30</Text>
                 </View>
-                <FontAwesome style={styles.video} name="video-camera" size={24} color='#0CB2A0' />
+                <FontAwesome style={styles.video} name="video-camera" size={20} color='#0CB2A0' />
             </View>
 
             <View style={styles.myCalls}>
@@ -32,11 +32,11 @@ export default function UserCall() {
                     <Text style={styles.title}>Anna</Text>
                     <Text style={styles.subTitle}>(2) ontem 12:30</Text>
                 </View>
-                <FontAwesome style={styles.video} name="video-camera" size={24} color='#0CB2A0' />
+                <FontAwesome style={styles.video} name="video-camera" size={20} color='#0CB2A0' />
             </View>
 
             <View style={styles.icons}>
-                <FontAwesome style={styles.pencil} name="video-camera" size={24} color="#FFF" />
+                <FontAwesome style={styles.pencil} name="video-camera" size={20} color="#FFF" />
                 <MaterialCommunityIcons style={styles.camera} name="phone-plus" size={24} color="#FFF" />
             </View>
         </View>

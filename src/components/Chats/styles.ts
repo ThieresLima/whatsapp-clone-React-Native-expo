@@ -3,9 +3,8 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
+        justifyContent: 'space-between',
         padding: 12,
-        borderBottomWidth: 0.3,
-        borderBottomColor: '#9fa3a7',
     },
 
     img: {
@@ -16,9 +15,8 @@ const styles = StyleSheet.create({
     },
 
     group: {
-        alignItems: 'flex-start',
-        marginHorizontal: 15,
-        marginTop: 5
+        marginTop: 5,
+        marginRight: 20
     },
 
     groupName: {
@@ -34,7 +32,6 @@ const styles = StyleSheet.create({
     info: {
         alignItems: 'center',
         marginTop: 5,
-        marginLeft: 15
     },
 
     hour: {
@@ -47,10 +44,12 @@ const styles = StyleSheet.create({
         color: '#101D24',
         backgroundColor: '#00AF9C',
         fontWeight: 'bold',
-        padding: 5,
-        borderRadius: 30,
+        padding: 4,
+        marginTop: 4,
+        borderRadius: 10,
 
-    }
+    },
+
 })
 
 export default styles;

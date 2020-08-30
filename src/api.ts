@@ -66,11 +66,35 @@ export function UserChat() {
         },
         {
             id: 8,
-            avatar: python,
-            name: 'Python Brazil',
+            avatar: react,
+            name: 'React Native',
             contact: '+55 799111289',
             hour: '05:10',
+            total: '12',
+        },
+        {
+            id: 9,
+            avatar: python,
+            name: 'Python Brazil',
+            contact: '+55 000000000',
+            hour: '09:10',
             total: '42',
+        },
+        {
+            id: 10,
+            avatar: javascript,
+            name: 'Javascript Developers',
+            contact: '+55 000000000',
+            hour: '08:56',
+            total: '39',
+        },
+        {
+            id: 11,
+            avatar: datascience,
+            name: 'Data Science',
+            contact: '+55 000000000',
+            hour: '08:20',
+            total: '20',
         },
     ]
 } 

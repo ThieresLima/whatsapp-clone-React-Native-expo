@@ -7,6 +7,7 @@ const styles = StyleSheet.create({
     },
     myCalls: {
         flexDirection: 'row',
+        justifyContent: 'space-between',
         padding: 5,
     },
 
@@ -19,6 +20,7 @@ const styles = StyleSheet.create({
     },
 
     info: {
+        marginEnd: 120,
         padding: 10,
         marginBottom: 10,
     },
@@ -38,11 +40,11 @@ const styles = StyleSheet.create({
 
     video: {
         marginTop: 15,
-        marginLeft: 110,
+
     },
 
     icons: {
-        marginTop: 230,
+        marginTop: 250,
         marginLeft: 280,
         alignContent: 'center'
     },
