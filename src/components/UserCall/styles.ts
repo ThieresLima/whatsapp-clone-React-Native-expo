@@ -3,44 +3,7 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
 
     container: {
-        margin: 10
-    },
-    myCalls: {
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        padding: 5,
-    },
-
-    img: {
-        width: 55,
-        height: 55,
-        borderRadius: 30,
-        resizeMode: 'contain',
-
-    },
-
-    info: {
-        marginEnd: 120,
-        padding: 10,
-        marginBottom: 10,
-    },
-
-
-    title: {
-        color: '#D4D6D8',
-        fontSize: 16,
-        fontWeight: 'bold'
-    },
-
-    subTitle: {
-        color: '#9EA0A2',
-        fontWeight: 'bold',
-        marginLeft: 10
-    },
-
-    video: {
-        marginTop: 15,
-
+        margin: 10,
     },
 
     icons: {

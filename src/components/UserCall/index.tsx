@@ -5,35 +5,25 @@ import avatar1 from '../../images/avatar1.jpg'
 import avatar2 from '../../images/avatar2.jpg'
 
 import styles from './styles';
+import User from '../User';
 
 export default function UserCall() {
     return (
         <View style={styles.container}>
-            <View style={styles.myCalls}>
 
-                <View>
-                    <Image style={styles.img} source={avatar2} />
-                </View>
+            <User
+                avatar={avatar1}
+                name="Joana"
+                subTitle="ontem 14:30"
+                icon={<FontAwesome name="video-camera" size={20} color='#0CB2A0' />}
+            />
 
-                <View style={styles.info}>
-                    <Text style={styles.title}>Joana</Text>
-                    <Text style={styles.subTitle}>(1) ontem 20:30</Text>
-                </View>
-                <FontAwesome style={styles.video} name="video-camera" size={20} color='#0CB2A0' />
-            </View>
-
-            <View style={styles.myCalls}>
-
-                <View>
-                    <Image style={styles.img} source={avatar1} />
-                </View>
-
-                <View style={styles.info}>
-                    <Text style={styles.title}>Anna</Text>
-                    <Text style={styles.subTitle}>(2) ontem 12:30</Text>
-                </View>
-                <FontAwesome style={styles.video} name="video-camera" size={20} color='#0CB2A0' />
-            </View>
+            <User
+                avatar={avatar2}
+                name="Anna"
+                subTitle="ontem 12:30"
+                icon={<FontAwesome name="video-camera" size={20} color='#0CB2A0' />}
+            />
 
             <View style={styles.icons}>
                 <FontAwesome style={styles.pencil} name="video-camera" size={20} color="#FFF" />

@@ -68,7 +68,7 @@ export function UserChat() {
             id: 8,
             avatar: react,
             name: 'React Native',
-            contact: '+55 799111289',
+            contact: '+55 000000000',
             hour: '05:10',
             total: '12',
         },

@@ -30,11 +30,11 @@ const styles = StyleSheet.create({
     },
 
     icon: {
-        marginTop: -20,
+        marginTop: -16,
         marginLeft: 40,
         backgroundColor: '#0CB2A0',
-        width: 20,
-        height: 20,
+        width: 15,
+        height: 15,
         borderRadius: 20,
     },
 
