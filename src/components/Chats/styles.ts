@@ -15,13 +15,14 @@ const styles = StyleSheet.create({
     },
 
     group: {
+        width: 220,
         marginTop: 5,
         marginRight: 20
     },
 
     groupName: {
         fontSize: 16,
-        color: '#9EA0A2',
+        color: 'rgba(255, 255, 255, 0.8)',
         fontWeight: "bold",
     },
 
@@ -31,7 +32,7 @@ const styles = StyleSheet.create({
     },
     info: {
         alignItems: 'center',
-        marginTop: 5,
+        justifyContent: 'center'
     },
 
     hour: {

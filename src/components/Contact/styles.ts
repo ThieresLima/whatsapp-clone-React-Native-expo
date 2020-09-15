@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
 
     info: {
         padding: 10,
+        width: 250
     },
 
     name: {
@@ -30,9 +31,8 @@ const styles = StyleSheet.create({
     },
 
     icon: {
-        marginTop: 15,
-        marginLeft: 150
-
+        alignItems: 'center',
+        justifyContent: 'center'
     },
 });
 

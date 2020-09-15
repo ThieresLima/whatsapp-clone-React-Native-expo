@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-    myStatus: {
+    statusContainer: {
         flexDirection: 'row',
         padding: 10,
     },
@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     },
 
     title: {
-        color: '#D4D6D8',
+        color: 'rgba(255, 255, 255, 0.8)',
         fontSize: 14,
         fontWeight: 'bold'
     },
@@ -43,9 +43,11 @@ const styles = StyleSheet.create({
     },
 
     icons: {
-        marginTop: 140,
-        marginLeft: 290,
-        alignContent: 'center'
+        height: 280,
+        alignContent: 'center',
+        justifyContent: 'flex-end',
+        alignSelf: 'flex-end',
+        marginRight: 10,
     },
 
     pencil: {

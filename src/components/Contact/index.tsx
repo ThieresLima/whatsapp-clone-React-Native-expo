@@ -1,18 +1,16 @@
 import React, { ReactNode } from 'react';
 import { View, Image, Text, TouchableOpacity } from 'react-native';
-import avatar1 from '../../images/avatar1.jpg'
-import avatar2 from '../../images/avatar2.jpg'
 
 import styles from './styles';
 
-interface UserProps {
+interface ContactProps {
     avatar: any;
     name: string;
     subTitle: string;
     icon?: ReactNode;
 }
 
-const User: React.FC<UserProps> = ({ avatar, name, subTitle, icon }) => {
+const Contact: React.FC<ContactProps> = ({ avatar, name, subTitle, icon }) => {
     return (
         <TouchableOpacity>
             <View style={styles.status}>
@@ -34,4 +32,4 @@ const User: React.FC<UserProps> = ({ avatar, name, subTitle, icon }) => {
     );
 }
 
-export default User;
+export default Contact;

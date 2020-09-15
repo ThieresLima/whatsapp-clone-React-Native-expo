@@ -1,24 +1,24 @@
 import React from 'react';
-import { View, Image, Text } from 'react-native';
+import { View } from 'react-native';
 import { FontAwesome, MaterialCommunityIcons } from '@expo/vector-icons';
 import avatar1 from '../../images/avatar1.jpg'
 import avatar2 from '../../images/avatar2.jpg'
 
 import styles from './styles';
-import User from '../User';
+import Contact from '../Contact';
 
-export default function UserCall() {
+export default function ContactCall() {
     return (
         <View style={styles.container}>
 
-            <User
+            <Contact
                 avatar={avatar1}
                 name="Joana"
                 subTitle="ontem 14:30"
                 icon={<FontAwesome name="video-camera" size={20} color='#0CB2A0' />}
             />
 
-            <User
+            <Contact
                 avatar={avatar2}
                 name="Anna"
                 subTitle="ontem 12:30"

@@ -7,9 +7,10 @@ const styles = StyleSheet.create({
     },
 
     icons: {
-        marginTop: 250,
-        marginLeft: 280,
-        alignContent: 'center'
+        height: 390,
+        alignContent: 'center',
+        justifyContent: 'flex-end',
+        alignSelf: 'flex-end',
     },
 
     pencil: {

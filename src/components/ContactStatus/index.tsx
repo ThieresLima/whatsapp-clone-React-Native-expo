@@ -6,12 +6,12 @@ import avatar1 from '../../images/avatar1.jpg'
 import avatar2 from '../../images/avatar2.jpg'
 
 import styles from './styles';
-import User from '../User';
+import Contact from '../Contact';
 
-export default function UserStatus() {
+export default function ContactStatus() {
     return (
         <View>
-            <TouchableOpacity style={styles.myStatus}>
+            <TouchableOpacity style={styles.statusContainer}>
                 <View>
                     <Image style={styles.img} source={avatar} />
                     <AntDesign style={styles.icon} name="plus" size={15} color="#fff" />
@@ -25,13 +25,13 @@ export default function UserStatus() {
 
             <Text style={[styles.subTitle, styles.att]}>Atualizações recentes</Text>
 
-            <User
+            <Contact
                 avatar={avatar2}
                 name="Anna"
                 subTitle="ontem 14:30"
             />
 
-            <User
+            <Contact
                 avatar={avatar1}
                 name="Joana"
                 subTitle="ontem 16:30"
